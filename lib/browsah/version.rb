@@ -1,3 +1,9 @@
+# encoding: UTF-8
+
+begin
+  require "step-up"
+rescue Exception => e; end
+
 class Browsah
   module VERSION #:nodoc:
     version = nil

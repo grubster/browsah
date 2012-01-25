@@ -2,8 +2,7 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require "browsah"
-require "step-up"
+require 'browsah/version'
 
 gf = File.expand_path("../GEM_VERSION", __FILE__)
 File.delete(gf) if File.exists?(gf)
